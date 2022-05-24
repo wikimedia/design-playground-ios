@@ -20,6 +20,7 @@
 		0012D318283451B700AC616C /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012D317283451B700AC616C /* TextViewController.swift */; };
 		0026D7582836BB2500E03E74 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026D7572836BB2500E03E74 /* UIFont+Extensions.swift */; };
 		0026D75C2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026D75B2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift */; };
+		006ED492283D67F7003563A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 006ED491283D67F7003563A2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +36,10 @@
 		0012D30328344E5B00AC616C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0012D30628344E5B00AC616C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0012D30828344E5B00AC616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0012D31128344FAF00AC616C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0012D317283451B700AC616C /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		0026D7572836BB2500E03E74 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		0026D75B2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundElementConfigurationViewController.swift; sourceTree = "<group>"; };
+		006ED491283D67F7003563A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,7 @@
 		0012D2F928344E5B00AC616C /* Design Playground */ = {
 			isa = PBXGroup;
 			children = (
-				0012D31128344FAF00AC616C /* README.md */,
+				006ED491283D67F7003563A2 /* README.md */,
 				0012D31028344F3700AC616C /* App */,
 				0012D30828344E5B00AC616C /* Info.plist */,
 			);
@@ -156,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006ED492283D67F7003563A2 /* README.md in Resources */,
 				0012D30728344E5B00AC616C /* LaunchScreen.storyboard in Resources */,
 				0012D30428344E5B00AC616C /* Assets.xcassets in Resources */,
 			);
