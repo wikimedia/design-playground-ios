@@ -10,7 +10,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		let tabBarController = UITabBarController()
 
 		let uiElementsViewController = UIElementsViewController(nibName: nil, bundle: nil)
-		uiElementsViewController.tabBarItem = UITabBarItem(title: "UI", image: UIImage(systemName: "slider.horizontal.below.square.filled.and.square"), selectedImage: UIImage(systemName: "slider.horizontal.below.square.filled.and.square"))
+		if #available(iOS 15, *) {
+			uiElementsViewController.tabBarItem = UITabBarItem(title: "UI", image: UIImage(systemName: "slider.horizontal.below.square.filled.and.square"), selectedImage: UIImage(systemName: "slider.horizontal.below.square.filled.and.square"))
+		} else {
+			uiElementsViewController.tabBarItem = UITabBarItem(title: "UI", image: UIImage(systemName: "slider.horizontal.below.rectangle"), selectedImage: UIImage(systemName: "slider.horizontal.below.rectangle"))
+		}
 
 		let textViewController = TextViewController(nibName: nil, bundle: nil)
 		textViewController.tabBarItem = UITabBarItem(title: "Text", image: UIImage(systemName: "doc.plaintext.fill"), selectedImage: UIImage(systemName: "doc.plaintext.fill"))
@@ -19,7 +23,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		colorsViewController.tabBarItem = UITabBarItem(title: "Colors", image: UIImage(systemName: "paintpalette.fill"), selectedImage: UIImage(systemName: "paintpalette.fill"))
 
 		let playgroundViewController = PlaygroundViewController(nibName: nil, bundle: nil)
-		playgroundViewController.tabBarItem = UITabBarItem(title: "Playground", image: UIImage(systemName: "rectangle.and.hand.point.up.left.fill"), selectedImage: UIImage(systemName: "rectangle.and.hand.point.up.left.fill"))
+		if #available(iOS 15, *) {
+			playgroundViewController.tabBarItem = UITabBarItem(title: "Playground", image: UIImage(systemName: "rectangle.and.hand.point.up.left.fill"), selectedImage: UIImage(systemName: "rectangle.and.hand.point.up.left.fill"))
+		} else {
+			playgroundViewController.tabBarItem = UITabBarItem(title: "Playground", image: UIImage(systemName: "hand.tap"), selectedImage: UIImage(systemName: "hand.tap"))
+		}
+
 
 		tabBarController.viewControllers = [
 			UINavigationController(rootViewController: uiElementsViewController),
