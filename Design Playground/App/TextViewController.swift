@@ -1,6 +1,6 @@
 import UIKit
 
-class TextViewController: UIViewController {
+final class TextViewController: UIViewController {
 
 	// MARK: - Properties
 
@@ -18,6 +18,8 @@ class TextViewController: UIViewController {
 		stackView.spacing = 5
 		return stackView
 	}()
+
+	// MARK: - Lifecycle
 
 	override func loadView() {
 		let contentView = UIView(frame: UIScreen.main.bounds)

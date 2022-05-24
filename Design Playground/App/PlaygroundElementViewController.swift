@@ -1,6 +1,6 @@
 import UIKit
 
-class PlaygroundElementViewController: UIViewController {
+final class PlaygroundElementViewController: UIViewController {
 
 	// MARK: - Nested Types
 
@@ -142,6 +142,7 @@ class PlaygroundElementViewController: UIViewController {
 			}
 
 			label.isEnabled = elementTraits?.enabled ?? true
+
 			viewToAdd = label
 		case .textField:
 			let textField = UITextField()

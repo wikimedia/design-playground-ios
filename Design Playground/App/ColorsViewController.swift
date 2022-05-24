@@ -143,10 +143,14 @@ fileprivate extension ColorsViewController {
 
 class ColorRow: UIView {
 
+	// MARK: - UI Elements
+
 	let well = UIView()
 	let label = UILabel()
 	let coloredLabel = UILabel()
 	let backgroundLabel = UILabel()
+
+	// MARK: - Lifecycle
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)

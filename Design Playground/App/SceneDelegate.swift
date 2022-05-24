@@ -29,7 +29,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 			playgroundViewController.tabBarItem = UITabBarItem(title: "Playground", image: UIImage(systemName: "hand.tap"), selectedImage: UIImage(systemName: "hand.tap"))
 		}
 
-
 		tabBarController.viewControllers = [
 			UINavigationController(rootViewController: uiElementsViewController),
 			UINavigationController(rootViewController: textViewController),

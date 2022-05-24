@@ -19,7 +19,7 @@
 		0012D30728344E5B00AC616C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0012D30528344E5B00AC616C /* LaunchScreen.storyboard */; };
 		0012D318283451B700AC616C /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012D317283451B700AC616C /* TextViewController.swift */; };
 		0026D7582836BB2500E03E74 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026D7572836BB2500E03E74 /* UIFont+Extensions.swift */; };
-		0026D75C2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026D75B2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift */; };
+		0026D75C2836BD7F00E03E74 /* PlaygroundElementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026D75B2836BD7F00E03E74 /* PlaygroundElementViewController.swift */; };
 		006ED492283D67F7003563A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 006ED491283D67F7003563A2 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		0012D30828344E5B00AC616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0012D317283451B700AC616C /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		0026D7572836BB2500E03E74 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
-		0026D75B2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundElementConfigurationViewController.swift; sourceTree = "<group>"; };
+		0026D75B2836BD7F00E03E74 /* PlaygroundElementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundElementViewController.swift; sourceTree = "<group>"; };
 		006ED491283D67F7003563A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 				000574D5283C1E6700D6A42F /* ColorsViewController.swift */,
 				0012D317283451B700AC616C /* TextViewController.swift */,
 				000574DB283C4AD600D6A42F /* PlaygroundViewController.swift */,
-				0026D75B2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift */,
+				0026D75B2836BD7F00E03E74 /* PlaygroundElementViewController.swift */,
 				000574D9283C483C00D6A42F /* VerticalSpacerView.swift */,
 				0026D7572836BB2500E03E74 /* UIFont+Extensions.swift */,
 				000574D7283C326900D6A42F /* UIColor+Extensions.swift */,
@@ -177,7 +177,7 @@
 				0012D318283451B700AC616C /* TextViewController.swift in Sources */,
 				0026D7582836BB2500E03E74 /* UIFont+Extensions.swift in Sources */,
 				000574DE283C5E4B00D6A42F /* SampleData.swift in Sources */,
-				0026D75C2836BD7F00E03E74 /* PlaygroundElementConfigurationViewController.swift in Sources */,
+				0026D75C2836BD7F00E03E74 /* PlaygroundElementViewController.swift in Sources */,
 				000574D8283C326900D6A42F /* UIColor+Extensions.swift in Sources */,
 				0012D2FB28344E5B00AC616C /* AppDelegate.swift in Sources */,
 				0012D2FD28344E5B00AC616C /* SceneDelegate.swift in Sources */,

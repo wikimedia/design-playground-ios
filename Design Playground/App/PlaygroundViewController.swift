@@ -52,6 +52,8 @@ final class PlaygroundViewController: UIViewController {
 		navigationItem.rightBarButtonItem = rightItem
 	}
 
+	// MARK: - Actions
+
 	@objc func tappedAdd() {
 		let elementConfigurationViewController = PlaygroundElementViewController(nibName: nil, bundle: nil)
 		elementConfigurationViewController.playgroundViewController = self

@@ -1,6 +1,6 @@
 import UIKit
 
-final class UIElementsViewController: UIViewController, UIGestureRecognizerDelegate {
+final class UIElementsViewController: UIViewController {
 
 	// MARK: - Properties
 
